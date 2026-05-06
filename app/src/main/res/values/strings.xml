@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MAC Editor</string>
-    <string name="xposed_description">Customize MAC address.</string>
-    <string name="status_activated">Module Enabled</string>
-    <string name="status_not_activated">Module Disabled</string>
-    <string name="status_inactive">Module Inactive</string>
-    <string name="status_detail_not_activated">Preferences cannot load until module is enabled after a reboot.</string>
-    <string name="status_detail_inactive">Ensure system is enabled in scope, then apply MAC address override to activate the module.</string>
-    <string name="status_detail_hook_on">Override enabled: custom MAC in use</string>
-    <string name="status_detail_hook_off">Override disabled: default MAC in use</string>
+    <string name="app_name">MAC 编辑器</string>
+    <string name="xposed_description">自定义 MAC 地址。</string>
+    <string name="status_activated">模块已启用</string>
+    <string name="status_not_activated">模块未启用</string>
+    <string name="status_inactive">模块未激活</string>
+    <string name="status_detail_not_activated">模块启用并重启后方可加载设置。</string>
+    <string name="status_detail_inactive">请确保已在作用域中启用系统，然后应用 MAC 地址覆盖以激活模块。</string>
+    <string name="status_detail_hook_on">覆盖已启用：正在使用自定义 MAC</string>
+    <string name="status_detail_hook_off">覆盖已禁用：正在使用默认 MAC</string>
 
-    <string name="hook_toggle_label">Override randomized MAC</string>
-    <string name="hook_toggle_desc">\"Use randomized MAC\" must be selected in \"Privacy\" under \"Network details\" in Settings</string>
-    <string name="force_mac_randomization_label">Force enable MAC randomization</string>
-    <string name="force_mac_randomization_desc">Force support for randomization and show \"Privacy\" section in \"Network details\"</string>
-    <string name="device_mac">System MAC</string>
-    <string name="current_mac">Active MAC</string>
-    <string name="new_mac">Standby MAC</string>
-    <string name="mac_not_set">Unknown</string>
-    <string name="btn_generate_mac">Generate Random MAC</string>
-    <string name="btn_set_mac">Apply MAC Address</string>
+    <string name="hook_toggle_label">覆盖随机 MAC</string>
+    <string name="hook_toggle_desc">需在设置中「网络详情」的「隐私」下选择「使用随机 MAC」</string>
+    <string name="force_mac_randomization_label">强制启用 MAC 随机化</string>
+    <string name="force_mac_randomization_desc">强制支持随机化，并在「网络详情」中显示「隐私」选项</string>
+    <string name="device_mac">系统 MAC</string>
+    <string name="current_mac">当前 MAC</string>
+    <string name="new_mac">待设 MAC</string>
+    <string name="mac_not_set">未知</string>
+    <string name="btn_generate_mac">生成随机 MAC</string>
+    <string name="btn_set_mac">应用 MAC 地址</string>
 
-    <string name="mac_set_success">MAC saved. Reconnect Wi-Fi to apply.</string>
-    <string name="open_wifi_settings">Open</string>
-    <string name="error_bad_length">Error: MAC address must be 48 bits long (e.g. 00:11:22:AA:BB:CC).</string>
-    <string name="error_all_zeros">Error: MAC address must not be all zeros.</string>
-    <string name="error_odd_first_octet">Error: MAC address must have an even first octet.</string>
+    <string name="mac_set_success">MAC 已保存，重新连接 Wi-Fi 后生效。</string>
+    <string name="open_wifi_settings">打开</string>
+    <string name="error_bad_length">错误：MAC 地址必须为 48 位（如 00:11:22:AA:BB:CC）。</string>
+    <string name="error_all_zeros">错误：MAC 地址不能全为零。</string>
+    <string name="error_odd_first_octet">错误：MAC 地址第一个字节必须为偶数。</string>
 
-    <string name="footer_note">Requires hardware driver support for MAC randomization. Reboot required for \"%s\".</string>
+    <string name="footer_note">需要硬件驱动支持 MAC 随机化。「%s」功能需重启后生效。</string>
 </resources>
